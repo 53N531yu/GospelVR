@@ -32,7 +32,7 @@ public class PlaylistShuffle : MonoBehaviour
         if (_audiosource.isPlaying)
             _trackTimer += 1 * Time.deltaTime;
         
-        if (!_audiosource.isPlaying || _trackTimer >= _audiosource.clip.length)
+        if (!_audiosource.isPlaying || _trackTimer >= _audiosource.clip.length + 10f)
             ChangePiece(Random.Range(0, pieces.Length));
         
         ResetShuffle();
