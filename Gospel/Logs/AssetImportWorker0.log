@@ -437,3 +437,35 @@ Received Import Request.
 Start importing Assets/Audio/Music/NocturneOP32NO2.wav using Guid(1ed34ba16fdcb4bbd89de0aa7acbee32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd9774fc2c2285f571e3d00e9f970f9f') in 0.183071208 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 94.357403 seconds.
+  path: Assets/Audio/Music/NocturneOP27NO2.wav
+  artifactKey: Guid(a59fe6a72ec5a42b592b153d7dac0b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/NocturneOP27NO2.wav using Guid(a59fe6a72ec5a42b592b153d7dac0b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3fcd7e95cda5ee9b4eaca60414f399b') in 0.015241708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.180718 seconds.
+  path: Assets/Audio/Music/LisztLoveDream.wav
+  artifactKey: Guid(ec50b1abd768b419bb5632af0bdb7f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/LisztLoveDream.wav using Guid(ec50b1abd768b419bb5632af0bdb7f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bbdbd4437defe638c0dee722ad982ba') in 0.005486333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.749902 seconds.
+  path: Assets/Audio/Music/FuneralMarchII.wav
+  artifactKey: Guid(dc87eb93eb9da4ab39ee334dfffe0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/FuneralMarchII.wav using Guid(dc87eb93eb9da4ab39ee334dfffe0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd38a77fb8ecddc72c4bc3e6c05992de2') in 0.006209292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.310764 seconds.
+  path: Assets/Audio/Music/DebussyArabesque.wav
+  artifactKey: Guid(e5e1b83ee9eb14bb8abe33463cf8885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/DebussyArabesque.wav using Guid(e5e1b83ee9eb14bb8abe33463cf8885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ccb98a6a7659af1578d1be7d6e1a5cf') in 0.00684825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
