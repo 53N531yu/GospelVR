@@ -1,0 +1,1772 @@
+Unity Editor version:    2023.2.12f1 (19eeb3b320af)
+Branch:                  2023.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.3 (Build 23D56)
+Darwin version:          23.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+2024-10-10 17:45:04.311 Unity[88695:14186702] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2023.2.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65009
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel
+/Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7936105536] Host "[IP] 129.21.107.97 [Port] 0 [Flags] 2 [Guid] 3514224460 [EditorId] 3514224460 [Version] 1048832 [Id] OSXEditor(0,Macbook-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7936105536] Host "[IP] 129.21.107.97 [Port] 0 [Flags] 2 [Guid] 3514224460 [EditorId] 3514224460 [Version] 1048832 [Id] OSXEditor(0,Macbook-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 14.78 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 3.47 ms.
+Initialize engine version: 2023.2.12f1 (19eeb3b320af)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2023.2.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56695
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2023.2.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2023.2.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002936 seconds.
+- Loaded All Assemblies, in  0.277 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+icall.c:1842:
+icall.c:1842:
+- Finished resetting the current domain, in  0.274 seconds
+Domain Reload Profiling: 551ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (103ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (229ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.788 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.39 ms, found 9 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.614 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (157ms)
+			BuildScriptInfoCaches (39ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 4.35 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 139 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6664 unused Assets / (6.9 MB). Loaded Objects now: 7290.
+Memory consumption went from 183.0 MB to 176.1 MB.
+Total: 7.720000 ms (FindLiveObjects: 0.657541 ms CreateObjectMapping: 0.235834 ms MarkObjects: 3.782666 ms  DeleteObjects: 3.043042 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1528788.446714 seconds.
+  path: Assets/Scenes/BasicScene.unity
+  artifactKey: Guid(4e9fef26e6adb88479ad1b9834a32d94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BasicScene.unity using Guid(4e9fef26e6adb88479ad1b9834a32d94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '171f7e23beeaed95c20c05ef399d7d30') in 0.101249583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af19ad979ed09e3d62409d58bb28bf87') in 0.018753666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/VRTemplateAssets/Shaders/FauxBlurURP.shader
+  artifactKey: Guid(0109ca49f001aed4a9b9378ad072e89a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Shaders/FauxBlurURP.shader using Guid(0109ca49f001aed4a9b9378ad072e89a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17c4e2f7673bdd64ca4efc0986785813') in 0.004210125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d4e18044d6b61cb533c18ed4543ade5') in 0.004315791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/VRTemplateAssets/Scripts/VideoTimeScrubControl.cs
+  artifactKey: Guid(6ca75f292f7449044807f6ba9e6f954c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Scripts/VideoTimeScrubControl.cs using Guid(6ca75f292f7449044807f6ba9e6f954c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eb99569cb46571bbf7837a62581d1ce') in 0.007531584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/VRTemplateAssets/Tutorial/TutorialLayout.wlt
+  artifactKey: Guid(bd2287c5608e485449e4a5ea7889ac30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Tutorial/TutorialLayout.wlt using Guid(bd2287c5608e485449e4a5ea7889ac30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77f94253281e6cca85b98a3d0cc0b31d') in 0.002741666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a50451ee41191ef1b292c97ae0d366d3') in 0.008254708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001073 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73b3ba27bde532aba6cd7b5fc18fbd7f') in 0.043136042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/VRTemplateAssets/Materials/Anchor Materials/Blue Anchor Arrow.mat
+  artifactKey: Guid(e42270a11c28f4744b73a18278e4ef33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Anchor Materials/Blue Anchor Arrow.mat using Guid(e42270a11c28f4744b73a18278e4ef33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9f4e6ecc89fc674339f1f1e12241755') in 0.014704125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/VRTemplateAssets/Scripts/LaunchProjectile.cs
+  artifactKey: Guid(1f369c769e8961844a3c7ccacd4c3cd5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Scripts/LaunchProjectile.cs using Guid(1f369c769e8961844a3c7ccacd4c3cd5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2d10417605d22fc87ea8c8b3b6e6b16') in 0.002267667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfabbb8a5c5f450e9981be086230f154') in 0.002037792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/VRTemplateAssets/Themes/BlendShapeAffordanceTheme.asset
+  artifactKey: Guid(eb00da65e3eb3ec4183cff0ee667a979) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Themes/BlendShapeAffordanceTheme.asset using Guid(eb00da65e3eb3ec4183cff0ee667a979) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6388484f99a88eb366699f838bcdc6ea') in 0.006143583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Settings/Project Configuration/Performance URP Config.asset
+  artifactKey: Guid(fd42a132493b1f143a4963adcd530ef1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Project Configuration/Performance URP Config.asset using Guid(fd42a132493b1f143a4963adcd530ef1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1361a8f54b415fd87caf2e06b25c4f0') in 0.026771416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/XR/Loaders/Open XR Loader No Pre Init.asset
+  artifactKey: Guid(b95054c657380c840a65b692a1bc899c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/XR/Loaders/Open XR Loader No Pre Init.asset using Guid(b95054c657380c840a65b692a1bc899c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79c7f025ff785e9c8b5a7a8d92769be7') in 0.004576875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/XR/Loaders/Open XR Loader.asset
+  artifactKey: Guid(28fe04729daeb2345bebc951fad25769) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/XR/Loaders/Open XR Loader.asset using Guid(28fe04729daeb2345bebc951fad25769) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bddb9158d639b6787b3e6dfe793c6b7') in 0.002492375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46b40e4a9d9e7830ffb3fa02f76e3c7d') in 0.002475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/XR/Settings/OpenXR Editor Settings.asset
+  artifactKey: Guid(06f2953658dd85b47a85933b4ea01260) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(06f2953658dd85b47a85933b4ea01260) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de5e52d26982f69fab77250cf8b76a3d') in 0.004440583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/VRTemplateAssets/Shaders/TexturedFresnelStandard.shader
+  artifactKey: Guid(5e723135b0fd1e34ba403dc074c61877) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Shaders/TexturedFresnelStandard.shader using Guid(5e723135b0fd1e34ba403dc074c61877) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c5e81b48b94fc2537ce33b1a047bffe') in 0.00339075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/VRTemplateAssets/Tutorial/VRTutorialProjectSettings.asset
+  artifactKey: Guid(76b4acc4d12394f60a5accbec43ae2a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Tutorial/VRTutorialProjectSettings.asset using Guid(76b4acc4d12394f60a5accbec43ae2a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '343aa342797a5978f32e944ab7d54358') in 0.013734042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/VRTemplateAssets/Scripts/StepManager.cs
+  artifactKey: Guid(6fc0d34940dd44129c17bc6d4396b866) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Scripts/StepManager.cs using Guid(6fc0d34940dd44129c17bc6d4396b866) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59dacd6f89f3b0ded11a309c0543dd24') in 0.002139875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF NoBackfaceCulling.asset
+  artifactKey: Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF NoBackfaceCulling.asset using Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b638d6865097f0bb9b80b2db94cab822') in 0.026521917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(bfb8f0735ac8c9b43a2f0251aea88e11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(bfb8f0735ac8c9b43a2f0251aea88e11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8a074fb8eac7d21f047855e2c128426') in 0.01902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Material.mat
+  artifactKey: Guid(c5340088affa7b6418a70a596e608408) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Material.mat using Guid(c5340088affa7b6418a70a596e608408) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '731617842aac437d278894ab64fe3e0d') in 0.010000791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9018103d3736165bf23492a2a96ce659') in 0.004027542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(55daccc09a3b69647bbab145b54a3ab3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(55daccc09a3b69647bbab145b54a3ab3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1a343aa8686d88fe8bbceb98e7574aa') in 0.026832792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2ec3ce044024e15783fd16947c64df7') in 0.019848334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b784881937d61afa1806cc019510e3eb') in 0.007458875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Material XRay Blue.mat
+  artifactKey: Guid(af07a37023b9de24a8da02768ceff3df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Material XRay Blue.mat using Guid(af07a37023b9de24a8da02768ceff3df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66533e682b1c6c58cb7151236fcd154a') in 0.007685792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/VRTemplateAssets/Themes/AnchorAffordanceTheme.asset
+  artifactKey: Guid(0b1260e07d3cf9b4eb80ff2e299d0bbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Themes/AnchorAffordanceTheme.asset using Guid(0b1260e07d3cf9b4eb80ff2e299d0bbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4db03faf75299ce1473b16f97452a411') in 0.004684916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(b14f41a94dde88c4fa9fed9ae80f7362) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset using Guid(b14f41a94dde88c4fa9fed9ae80f7362) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82a3b20fecdfc375f37d9c84d8c7b1b5') in 0.006629667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/VRTemplateAssets/Graphics/Template Lighting Settings.lighting
+  artifactKey: Guid(78151f5e58fb9f749bd5225f789faa27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Graphics/Template Lighting Settings.lighting using Guid(78151f5e58fb9f749bd5225f789faa27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eee6abd0a4e79f686f594099cc37abc1') in 0.0078945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF.asset
+  artifactKey: Guid(f675742eaf9c20a4f909d78ee7a14fed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF.asset using Guid(f675742eaf9c20a4f909d78ee7a14fed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64d9d4cea0dfd6741b1f6ca13303f583') in 0.023147375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Settings/Project Configuration/Quality URP Config.asset
+  artifactKey: Guid(cf6a652e94858004a93399f0a3dac507) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Project Configuration/Quality URP Config.asset using Guid(cf6a652e94858004a93399f0a3dac507) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75e3f582cce886ca6a20b91b103b2290') in 0.026111834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/VRTemplateAssets/Shaders/TexturedStableFresnelCommon.cginc
+  artifactKey: Guid(7e993ba3aff41e5449030adfcd2d5525) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Shaders/TexturedStableFresnelCommon.cginc using Guid(7e993ba3aff41e5449030adfcd2d5525) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '375c6ac4f6259958b7b5f8fe9bf1a261') in 0.00273275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/VRTemplateAssets/Themes/ColorAffordanceTheme.asset
+  artifactKey: Guid(591edbd6be1a73b4fab57bd230c3efbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Themes/ColorAffordanceTheme.asset using Guid(591edbd6be1a73b4fab57bd230c3efbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3673dd531c2ec0239fef0aaac2b33f4') in 0.003423209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f2477e14ac3568769b157f476faa0ec') in 0.003931041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3571e8340e9997680aed58356404c408') in 0.001922083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/VRTemplateAssets/Materials/Controller/DefaultMaterial_AO.png
+  artifactKey: Guid(7438999bc10061a4db23c995a4d56f21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Controller/DefaultMaterial_AO.png using Guid(7438999bc10061a4db23c995a4d56f21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45b3b5f723eff37ed260aee1d1c5e1ce') in 0.011781417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall_Base_color.png
+  artifactKey: Guid(89c4d70ec8a71624f9f1ea880312974b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall_Base_color.png using Guid(89c4d70ec8a71624f9f1ea880312974b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '022b789e88b7a46f1ad4fec240483dc8') in 0.01416225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall2_Roughness.png
+  artifactKey: Guid(b9b0c20b387b4cb4687eee8f3a92736b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall2_Roughness.png using Guid(b9b0c20b387b4cb4687eee8f3a92736b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0495af9a391ec46377a646ccc354bf54') in 0.008939208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Concrete_Albedo.tif
+  artifactKey: Guid(5803a7cd377fea04dbb2916a5d373150) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Concrete_Albedo.tif using Guid(5803a7cd377fea04dbb2916a5d373150) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96d229a1e1207385e2c82218cce191db') in 0.007802125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Concrete_Normal.tif
+  artifactKey: Guid(ae14e9baa09e4f8488f94e6055895c9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Concrete_Normal.tif using Guid(ae14e9baa09e4f8488f94e6055895c9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dee4981dab6c06c2f9ec7422858e05e') in 0.009056709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Wall Cut.mat
+  artifactKey: Guid(042e972c6fce7414fbab2b5248e4a0fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Wall Cut.mat using Guid(042e972c6fce7414fbab2b5248e4a0fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c03b2f27294be1428cddf5d6cc201c9') in 0.0064135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Chrome.mat
+  artifactKey: Guid(5d46bb438eef41d449bb7588f4a77e06) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Chrome.mat using Guid(5d46bb438eef41d449bb7588f4a77e06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35f7a79f2acacc77e5135114a290ebfc') in 0.0039815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Wall Default.mat
+  artifactKey: Guid(dcac969f335985b47a7dd104e05496d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Wall Default.mat using Guid(dcac969f335985b47a7dd104e05496d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a66613947598bd5741edf993566d47df') in 0.005778125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/VRTemplateAssets/Materials/Pointer/Pointer Outline.mat
+  artifactKey: Guid(94eebd9d324eddd49be6e843f56d7ec0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Pointer/Pointer Outline.mat using Guid(94eebd9d324eddd49be6e843f56d7ec0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6da28360fd1a1cb9056ea23dfbde842') in 0.003584542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/VRTemplateAssets/Materials/Locomotion/BlinkLine.mat
+  artifactKey: Guid(adc6df264fa86214ab5c08e683a21f17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Locomotion/BlinkLine.mat using Guid(adc6df264fa86214ab5c08e683a21f17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d203a897e920b4414ef93c895b4c289') in 0.035719209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/VRTemplateAssets/Scripts/BezierCurve.cs
+  artifactKey: Guid(72fb4b8d89bc26347a49177acaa93913) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Scripts/BezierCurve.cs using Guid(72fb4b8d89bc26347a49177acaa93913) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '877def91945ae5d8bcea300af2023de6') in 0.002243333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea7caf94e35928e84640c03cfa897e12') in 0.003223208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall2_Normal.png
+  artifactKey: Guid(bfa8fa08c7e589845ba41939e7fb397b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall2_Normal.png using Guid(bfa8fa08c7e589845ba41939e7fb397b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3847f1dc67fec23bafe82d81d2e688dd') in 0.00881475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/VRTemplateAssets/Scripts/Rotator.cs
+  artifactKey: Guid(0bb83e3cfa27c6d4487384ed695c76bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Scripts/Rotator.cs using Guid(0bb83e3cfa27c6d4487384ed695c76bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '890274d31d7edaee63c839f5d3c4ca64') in 0.002067041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ca3013837ac80c7c0f4d5fdbf41167c') in 0.0017545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4cf2aea99f313de1a6ba9bb01993413') in 0.002052291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/VRTemplateAssets/Scripts/DestroyObject.cs
+  artifactKey: Guid(210883af668c0fc4aab890d9ad3cfd6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Scripts/DestroyObject.cs using Guid(210883af668c0fc4aab890d9ad3cfd6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce541c45b2d44b34a1633384acf96531') in 0.002081792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31f57b9129052f6a5434107dfd477a43') in 0.016287875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ed50f6e0b41014e4532d1b24656ef07') in 0.002109917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Material.mat
+  artifactKey: Guid(69cb2ba794a087b4abdf1b00110f8c3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Material.mat using Guid(69cb2ba794a087b4abdf1b00110f8c3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39f4aa78132473ca20df16d84fe0838c') in 0.01005775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4bbeae24de88ff6db0bbeec8a35c034') in 0.002130333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall_Height.png
+  artifactKey: Guid(b2766e330f67bc74b90720c501d9fe01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall_Height.png using Guid(b2766e330f67bc74b90720c501d9fe01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc9a09c11941155b2ad46f54b7a59f2d') in 0.006534458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/VRTemplateAssets/Materials/Locomotion/Standard White.mat
+  artifactKey: Guid(6691c89fc6fbbb44cb5af52391da7129) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Locomotion/Standard White.mat using Guid(6691c89fc6fbbb44cb5af52391da7129) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6454dd94931f80c0e1fe731dcf599847') in 0.003661625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Thick Material.mat
+  artifactKey: Guid(c44e025c6bec3624a9f624e28b7d925b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Thick Material.mat using Guid(c44e025c6bec3624a9f624e28b7d925b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28aca22249126f1a295c8c8be5201dc8') in 0.008264792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/VRTemplateAssets/Materials/Locomotion/BlinkOcclusionPass.mat
+  artifactKey: Guid(001bdd73657b0304fa8db289f612d45b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Locomotion/BlinkOcclusionPass.mat using Guid(001bdd73657b0304fa8db289f612d45b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f948f13c66bcafa3b22532cd1d89fbcd') in 0.005915042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall2_Metallic.png
+  artifactKey: Guid(29476f995aeec6243b4aa5032ecf7dd5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall2_Metallic.png using Guid(29476f995aeec6243b4aa5032ecf7dd5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bdf98984bbb1290fe01f1294d4f31a5') in 0.006165833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/VRTemplateAssets/Tutorial/VRTutorialWelcomePage.asset
+  artifactKey: Guid(3bf5c60804f704e11826afa05a7e2152) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Tutorial/VRTutorialWelcomePage.asset using Guid(3bf5c60804f704e11826afa05a7e2152) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbec80b01e6d45453a3d2da5c4e80ce6') in 0.004406459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall_Normal_OpenGL.png
+  artifactKey: Guid(6b3a9ec2867d0ad40ab1b8aae579267a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall_Normal_OpenGL.png using Guid(6b3a9ec2867d0ad40ab1b8aae579267a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ba14b9b66daf8dc0937486acc54f95d') in 0.006735375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Scenes/BasicScene/Grid_Light_512x512.png
+  artifactKey: Guid(8685512c7856ffd40a4ad1859a7cb52c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BasicScene/Grid_Light_512x512.png using Guid(8685512c7856ffd40a4ad1859a7cb52c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6ec8c328f2fdb0f3d9573cef4958f9d') in 0.007982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Settings/Project Configuration/Standalone Preset.asset
+  artifactKey: Guid(b4712bf26326e8a4286df35b4a6d2b19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Project Configuration/Standalone Preset.asset using Guid(b4712bf26326e8a4286df35b4a6d2b19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93241cf4ae7faaf4363757b910244d74') in 0.017121875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2dfe8d78df69576f65989c9d70276d0') in 0.008290709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Settings/Project Configuration/Android Preset.asset
+  artifactKey: Guid(53a413327819a984d8ab1618c9e90a10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Project Configuration/Android Preset.asset using Guid(53a413327819a984d8ab1618c9e90a10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9166db1853380ae79459b5077c5da00b') in 0.012745125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cdaa2832c6c43f6adf1c3375cd31e5e') in 0.0032455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VRTemplateAssets/Scripts/Callout.cs
+  artifactKey: Guid(16809ed3baa3d2341b75ec4c0aa874d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Scripts/Callout.cs using Guid(16809ed3baa3d2341b75ec4c0aa874d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3758c64224e9cd513f674b043200b76e') in 0.002015083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/VRTemplateAssets/Materials/Anchor Materials/Anchor Base.mat
+  artifactKey: Guid(19fd09f1fd9347644a27778b73938d3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Anchor Materials/Anchor Base.mat using Guid(19fd09f1fd9347644a27778b73938d3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '676e934d1b5d91c0225152c92736adad') in 0.004686125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/VRTemplateAssets/Scripts/CalloutGazeController.cs
+  artifactKey: Guid(84f6509f3c7fa7b4899c9c767f49e622) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Scripts/CalloutGazeController.cs using Guid(84f6509f3c7fa7b4899c9c767f49e622) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33a7b2500be517c71a2998efdaf2abe2') in 0.002209833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/VRTemplateAssets/Shaders/Grid.shader
+  artifactKey: Guid(186077f5a09f3b64a812922fa946fe52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Shaders/Grid.shader using Guid(186077f5a09f3b64a812922fa946fe52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f59b60766d0e9a3e7eca9de8b5872deb') in 0.00251975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/VRTemplateAssets/Materials/Locomotion/Blue Standard.mat
+  artifactKey: Guid(7632678931fb0f34cb3d81b319e6fd15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Locomotion/Blue Standard.mat using Guid(7632678931fb0f34cb3d81b319e6fd15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9cc5f8787d4686aa36b32ec1d6c80c0') in 0.00336525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91adc51e8c43ac4a637944950d62c570') in 0.003682375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/Sticky.physicMaterial
+  artifactKey: Guid(93fd3ce14e8045645a179db0bfce7ea9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/Sticky.physicMaterial using Guid(93fd3ce14e8045645a179db0bfce7ea9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd873c1ef8d93a12ba0441a332aaa8a71') in 0.002425084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Height.png
+  artifactKey: Guid(356c407e725a3f848a785b134856cd4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Height.png using Guid(356c407e725a3f848a785b134856cd4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '326edb2f56dc4aa130a9da99c8db05a2') in 0.007030167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/VRTemplateAssets/Models/Environment/Arrows.fbx
+  artifactKey: Guid(a8211a3e0e87d014e8326e23ae022d39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/Environment/Arrows.fbx using Guid(a8211a3e0e87d014e8326e23ae022d39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77d9301482240f8943e1a8d9a78c0fe3') in 0.020983125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/VRTemplateAssets/Materials/UI/torus_cursorShape.png
+  artifactKey: Guid(8f956ef5b213a174e8ff93ecfd35f269) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/UI/torus_cursorShape.png using Guid(8f956ef5b213a174e8ff93ecfd35f269) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b29a54c8abf03b0524a099338952ae80') in 0.006755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/VRTemplateAssets/Materials/Skybox/skybox01_openGL.png
+  artifactKey: Guid(08ea713d0e79d8e4aa41c53a0bad3fa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Skybox/skybox01_openGL.png using Guid(08ea713d0e79d8e4aa41c53a0bad3fa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8811dedb7370230334a3d68de90dae5') in 0.013042417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/VRTemplateAssets/Models/Anchor/AnchorBase.fbx
+  artifactKey: Guid(83053866027bda94da06cb09ab527394) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/Anchor/AnchorBase.fbx using Guid(83053866027bda94da06cb09ab527394) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cbb11a0a58dc8a7d097ccd15760011e') in 0.011368042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/TutorialPlayer/Tutorial Player.prefab
+  artifactKey: Guid(dc067c577ec1b854684d789b6e727cc0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Prefabs/TutorialPlayer/Tutorial Player.prefab using Guid(dc067c577ec1b854684d789b6e727cc0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46b9be431a30fcab5a67323b129f7998') in 0.037125667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 1.png
+  artifactKey: Guid(aa1e07d3e3ba968489f3cba3bbe76b41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 1.png using Guid(aa1e07d3e3ba968489f3cba3bbe76b41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14d38a7038764e2e8439668e4b6f9f8c') in 0.011003083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/UI/List Item Slider.prefab
+  artifactKey: Guid(41d89b59fe3e9964a83686ff24b7d0c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Prefabs/UI/List Item Slider.prefab using Guid(41d89b59fe3e9964a83686ff24b7d0c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71aca2ade7b9c995a750337f73b0745b') in 0.009334833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/VRTemplateAssets/Models/Marks/Marks.fbx
+  artifactKey: Guid(47f3b271b50f14d4fbc351a0104e9d46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/Marks/Marks.fbx using Guid(47f3b271b50f14d4fbc351a0104e9d46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c9d059c4576fd234fa7c0f7b13cbffa') in 0.033602667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/Blaster/Confetti.prefab
+  artifactKey: Guid(a24db55e1f9277f459f8a602b53a9bb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Prefabs/Blaster/Confetti.prefab using Guid(a24db55e1f9277f459f8a602b53a9bb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd555da102a6a27d9695108c2b187d659') in 0.038037125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/Controller/Left Controller.prefab
+  artifactKey: Guid(aa14702dd234c8d4fb9ac0df97715ef7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Prefabs/Controller/Left Controller.prefab using Guid(aa14702dd234c8d4fb9ac0df97715ef7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16450b96e85700a0ee4e115b4dc07e00') in 0.002827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 3.png
+  artifactKey: Guid(a89d91b09ecb0164ab9d892915bfa299) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 3.png using Guid(a89d91b09ecb0164ab9d892915bfa299) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b45013f5f54d4e6d6623f6b1c64b8b04') in 0.007310583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/VRTemplateAssets/Models/Anchor/AnchorArrow.fbx
+  artifactKey: Guid(076cbf182a14247409a7a269d753df65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/Anchor/AnchorArrow.fbx using Guid(076cbf182a14247409a7a269d753df65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2424702a6603c0b1d9d2bd3871aa2458') in 0.010458917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/UI/List Item Toggle.prefab
+  artifactKey: Guid(e1f0d4bc2d67ddb4295e73f51f3ca4f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Prefabs/UI/List Item Toggle.prefab using Guid(e1f0d4bc2d67ddb4295e73f51f3ca4f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe751a0ca70d23fc817f9ef95944893b') in 0.010266416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/Torus.mat
+  artifactKey: Guid(bf6a673a7ceb9fd45968b0283b67b5bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/Torus.mat using Guid(bf6a673a7ceb9fd45968b0283b67b5bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40c7643aa8ff801c56428d9559c72c31') in 0.005103375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VRTemplateAssets/Materials/Skybox/Horizontal Skybox.shader
+  artifactKey: Guid(7f03ebe1c47a61a4299e9ff55e66690e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Skybox/Horizontal Skybox.shader using Guid(7f03ebe1c47a61a4299e9ff55e66690e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5a2b67b1a3b5f1ec679c57027dfeaba') in 0.00287075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/torus_Roughness.png
+  artifactKey: Guid(fb131a1c1f4a365408bb20898e26015a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/torus_Roughness.png using Guid(fb131a1c1f4a365408bb20898e26015a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55956866f66cb38f1c93b6cdc08017fb') in 0.014044375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/Green.mat
+  artifactKey: Guid(c4fad0f5843a8fc4f8488ab522a78684) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/Green.mat using Guid(c4fad0f5843a8fc4f8488ab522a78684) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a19ddfb8aa1176f116b070d1b8dd9c3') in 0.008063458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal_OpenGL.png
+  artifactKey: Guid(400b852fe920b6f4c88997509431791a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal_OpenGL.png using Guid(400b852fe920b6f4c88997509431791a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4834e7c897815439f5a0f5f14773ece7') in 0.007192333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/VRTemplateAssets/Models/Environment/Torus Cut.fbx
+  artifactKey: Guid(4ed41858240845b479082276b0831228) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/Environment/Torus Cut.fbx using Guid(4ed41858240845b479082276b0831228) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34f8b159244ee9353da6a73a86c2c6f7') in 0.010408083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/Blink/Blink Visuals.prefab
+  artifactKey: Guid(8b983c20181b75e489cd0b88a44c68f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Prefabs/Blink/Blink Visuals.prefab using Guid(8b983c20181b75e489cd0b88a44c68f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7498f7565c8930a1cf4969b42aa04a9f') in 0.003251209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/Interactables 4.mat
+  artifactKey: Guid(f5cd77343d6ca1949b1d2d7511848832) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/Interactables 4.mat using Guid(f5cd77343d6ca1949b1d2d7511848832) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5496812f165ce3659a120beec5c1f61') in 0.004058583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/VRTemplateAssets/Materials/UI/BezierLink.mat
+  artifactKey: Guid(b0e96864bafcfb54894bb238ad56cf3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/UI/BezierLink.mat using Guid(b0e96864bafcfb54894bb238ad56cf3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e4acce9188be21968a62b81005b7961') in 0.003339875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/VRTemplateAssets/Models/UI/Spatial Panel Manipulator Model.fbx
+  artifactKey: Guid(c6984c48aed9a154294088f4265d8478) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/UI/Spatial Panel Manipulator Model.fbx using Guid(c6984c48aed9a154294088f4265d8478) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '761f5948fdfa47233290996d3b1e064c') in 0.012149292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall2_Base_color.png
+  artifactKey: Guid(9d65b1540bd55dc4ab02643e09524306) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall2_Base_color.png using Guid(9d65b1540bd55dc4ab02643e09524306) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c19eb5a96dbe68c9ee79cf367b59c9f3') in 0.006742833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/VRTemplateAssets/Models/Primitives/Sphere.fbx
+  artifactKey: Guid(080ad8ef2223242198a30df487d9bcbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/Primitives/Sphere.fbx using Guid(080ad8ef2223242198a30df487d9bcbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8323e8a31edf9fdd1445c507b23299e2') in 0.007722417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Variant.prefab
+  artifactKey: Guid(65eb6b98091a5734ba9d9ca871cef69a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Variant.prefab using Guid(65eb6b98091a5734ba9d9ca871cef69a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48b626c8afdb31bf7e601a7a12bf7928') in 0.055700208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 988
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef
+  artifactKey: Guid(8f07e33567e0ee542b40769c456c6b53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef using Guid(8f07e33567e0ee542b40769c456c6b53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dbc48a289b2e8f360aca3b2135354ed') in 0.002882166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/Reticle_Torus.fbx
+  artifactKey: Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/Reticle_Torus.fbx using Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '479f8d827ac725cf09900fe341221be5') in 0.010781042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/VRTemplateAssets/Tutorial/Images/project-header-vr.png
+  artifactKey: Guid(6eaf09dd6cc8a49708bf60691e32bebf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Tutorial/Images/project-header-vr.png using Guid(6eaf09dd6cc8a49708bf60691e32bebf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4538e82b6f0933f4cfff90c74e6d6f29') in 0.00699975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx
+  artifactKey: Guid(5833e680dc0f7ae47aec6b4286570484) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx using Guid(5833e680dc0f7ae47aec6b4286570484) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1713e78d1c4e90fd05a759052debd021') in 0.0093975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5afded279403d0f19378556c6b9a3d72') in 0.003833084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default XR UI Input Module.preset
+  artifactKey: Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default XR UI Input Module.preset using Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '809987b7dde2db164a84cf21f120d961') in 0.004518333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Rotate Right.png
+  artifactKey: Guid(1e4fbbf0f3e2efa428b2176e5a91baed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Rotate Right.png using Guid(1e4fbbf0f3e2efa428b2176e5a91baed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffb42fcf6b7379ad137b51d28557bc20') in 0.00756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Right ActionBasedControllerManager.preset
+  artifactKey: Guid(55f7614a1d331d14bb631965514937d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Right ActionBasedControllerManager.preset using Guid(55f7614a1d331d14bb631965514937d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '397f264e1b38ec826eff69109cebb19d') in 0.004632334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Chevron.png
+  artifactKey: Guid(c587cac8808c8b745adbae420e9acc83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Chevron.png using Guid(c587cac8808c8b745adbae420e9acc83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e463fe2c448acb812efa1a67937b6c64') in 0.0088485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 6.png
+  artifactKey: Guid(7e45b5b7749d93e4baa70a7908635dcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 6.png using Guid(7e45b5b7749d93e4baa70a7908635dcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4d826547c5c25a545b14231cbf06b5f') in 0.007463708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 5.png
+  artifactKey: Guid(bd657264cd2bd754bbed1cc8905fbdce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/CoachingCards/Coaching Step 5.png using Guid(bd657264cd2bd754bbed1cc8905fbdce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bea188562609964dcdc53434cb2b8a1') in 0.009557875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/XRControllerLeft.fbx
+  artifactKey: Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/XRControllerLeft.fbx using Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6aaacc8718143b89d047ce8fc5686df') in 0.0158345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/CircleMask.png
+  artifactKey: Guid(79dfa83adcf72d541946168c849ba331) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/UI/CircleMask.png using Guid(79dfa83adcf72d541946168c849ba331) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b85a32b98512f7b2b29f6e28a561f5d4') in 0.008427334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+  artifactKey: Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/XR Origin (XR Rig).prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fec4840114e68ce48c66516d9dd68ede') in 0.018913542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 307
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignette.shader
+  artifactKey: Guid(e51b4af1e50be764e8de46e07d4e3f3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignette.shader using Guid(e51b4af1e50be764e8de46e07d4e3f3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1dbf1d138a0ff7f54200b9302f22e536') in 0.003036083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Top.png
+  artifactKey: Guid(de0113b98aad70a419960e61a7d8d6ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Top.png using Guid(de0113b98aad70a419960e61a7d8d6ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b22dd88a7b7a189469d862d8876efa7c') in 0.00729925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Teleport.png
+  artifactKey: Guid(b398f58ecc9d0ac4c8de2c6e007b5c95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Teleport.png using Guid(b398f58ecc9d0ac4c8de2c6e007b5c95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e472c4086a84027918b0168a16db328') in 0.009020541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/ObjectSpawner.cs
+  artifactKey: Guid(956dd6cf70eaca449a45b6a95b96c8c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/ObjectSpawner.cs using Guid(956dd6cf70eaca449a45b6a95b96c8c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68446cf5b4b3cfaec36f2ae7badd43a4') in 0.00209575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/XRControllerRight.fbx
+  artifactKey: Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/XRControllerRight.fbx using Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6898d50e690e370a2c6623adf81c26a0') in 0.01599825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23ba4a20e6f3ae6a3179fc411a1bd9c2') in 0.006468292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/GazeInputManager.cs
+  artifactKey: Guid(6ef0e4723b64c884699a375196c13ac0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/GazeInputManager.cs using Guid(6ef0e4723b64c884699a375196c13ac0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b82c1417059fc25432840b4e33bb38b4') in 0.001990167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Gaze Controller.preset
+  artifactKey: Guid(2e6e6d902741c934ba75a28389d4f66e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Gaze Controller.preset using Guid(2e6e6d902741c934ba75a28389d4f66e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c25daa0adfc04c7edeb715480720ba03') in 0.005175625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Checkmark.png
+  artifactKey: Guid(4aafc51823472ec4ea8ab57045fb659a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Checkmark.png using Guid(4aafc51823472ec4ea8ab57045fb659a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '745c0179fb8acb50fb30078d37c2d817') in 0.007839333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Circle_60x60_Vertical.png
+  artifactKey: Guid(83d67d78424a7e24fa4bef36e1e32541) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Circle_60x60_Vertical.png using Guid(83d67d78424a7e24fa4bef36e1e32541) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '000a0f2dac5e257a5820f88488d67381') in 0.009261959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Circle_60x60_Horizontal.png
+  artifactKey: Guid(b342eb1e41a45ce41b5c7c684a17c465) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Circle_60x60_Horizontal.png using Guid(b342eb1e41a45ce41b5c7c684a17c465) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5cdd9a17ed3ae2a558f7621f5ec2309') in 0.007392042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Scroll Left.png
+  artifactKey: Guid(3708b1d8e45366b489c18df71670cecd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Scroll Left.png using Guid(3708b1d8e45366b489c18df71670cecd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '142706b1a471ddd333ba40dac0a01557') in 0.007118042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Scroll Down.png
+  artifactKey: Guid(40f7736bf48a1d94cac651cb532e4767) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Scroll Down.png using Guid(40f7736bf48a1d94cac651cb532e4767) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18d60269ce30a68dc6b17982f05d95d6') in 0.009301459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignette.prefab
+  artifactKey: Guid(6c8af5c8012f01440af6cb2bc3eb987c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignette.prefab using Guid(6c8af5c8012f01440af6cb2bc3eb987c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f710ee76e2eed7f8718ca4e091207ceb') in 0.006636042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/UI/List Item Button.prefab
+  artifactKey: Guid(fa5ef3b56cfeb4f4ba855cdf2610a578) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Prefabs/UI/List Item Button.prefab using Guid(fa5ef3b56cfeb4f4ba855cdf2610a578) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c9468918de0331e64128693a9409103') in 0.0134955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3ffaf5b0dd4a76d4b46c427cf45cfdd') in 0.004189125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-1.exr
+  artifactKey: Guid(fe92f018ab9184b43b46c80b2a02e522) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-1.exr using Guid(fe92f018ab9184b43b46c80b2a02e522) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd209ec3372c3e4948349ed99dd3799d2') in 0.007523083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Grey.mat
+  artifactKey: Guid(e1b4debff657aa94293a2e4e5f15b8a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Grey.mat using Guid(e1b4debff657aa94293a2e4e5f15b8a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cb4367a11df063cc7ad7a624441e669') in 0.005153375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/VRTemplateAssets/Graphics/Post Process Volume Profile.asset
+  artifactKey: Guid(12bd4b8ecc486d84b9e059255860c49b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Graphics/Post Process Volume Profile.asset using Guid(12bd4b8ecc486d84b9e059255860c49b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '984407f86fd61e231ef0263ec038eac8') in 0.005719209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19d129b3afcfa6f1ea8c574ea0c18b49') in 0.00216925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/VRTemplateAssets/Materials/Locomotion/BlinkOcclusionTexture.png
+  artifactKey: Guid(325bac5adcc39b044b58a1cc8c02ef0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Locomotion/BlinkOcclusionTexture.png using Guid(325bac5adcc39b044b58a1cc8c02ef0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc404695f623db9a66c74a7a1c428645') in 0.006477291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab
+  artifactKey: Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab using Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd41f2caebe9f450af37a6a64cb5044a6') in 0.011990167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab
+  artifactKey: Guid(fd28f23af44f73f4a95e33435872ad15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab using Guid(fd28f23af44f73f4a95e33435872ad15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c6253b9433e31f443a6298fc898ec33') in 0.019434209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 315
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab
+  artifactKey: Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab using Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59299f4d67b2084588cd9902f3d8a218') in 0.020589666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Forward.png
+  artifactKey: Guid(f8ecc54972abacc46a93f671b0602139) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Forward.png using Guid(f8ecc54972abacc46a93f671b0602139) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '599bc9fb0b59ab6b274f5f72bd0f41d0') in 0.012999917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png
+  artifactKey: Guid(affa059594145a843b81788037b4ee21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png using Guid(affa059594145a843b81788037b4ee21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b39a479ef76bcfef3882e4edda833a16') in 0.007631666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables Sample.prefab
+  artifactKey: Guid(6821e1b7f44d8c44b8a2ba02f37309d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables Sample.prefab using Guid(6821e1b7f44d8c44b8a2ba02f37309d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a88a0e2c4a2fb63cbb41ad37f7a6004') in 0.009347875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+  artifactKey: Guid(a3fde713df4d99042a0403c4be9eea32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab using Guid(a3fde713df4d99042a0403c4be9eea32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e1028ad232710a054e03b82eb6b1a65') in 0.002477417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climb Sample.prefab
+  artifactKey: Guid(2ea572d587ee60f44bd5baa3bc2d6503) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climb Sample.prefab using Guid(2ea572d587ee60f44bd5baa3bc2d6503) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57d63ec7db5399641fed023110e5ee4e') in 0.010290417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 493
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Toggle.prefab
+  artifactKey: Guid(541ed11e270c6994ca5910042c7e04da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Toggle.prefab using Guid(541ed11e270c6994ca5910042c7e04da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef890d50010f77d557250b75407275d8') in 0.008934333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/TextButton.prefab
+  artifactKey: Guid(e5db301629853dd4a99835fa70099d79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/TextButton.prefab using Guid(e5db301629853dd4a99835fa70099d79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aad83e6b54bdee6ebcc45f6436d9352f') in 0.011238209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs
+  artifactKey: Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs using Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b565b7cc4ed121163cf0b6d788eaf949') in 0.00200125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/AffordanceThemes/InteractionColorAffordanceTheme.asset
+  artifactKey: Guid(3ec238cb3e80e274c844d7b56f585392) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/AffordanceThemes/InteractionColorAffordanceTheme.asset using Guid(3ec238cb3e80e274c844d7b56f585392) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4c7f4137a9e7bf7d84e43281067cbcd') in 0.003254917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png
+  artifactKey: Guid(db3e7b7c8db355e499429545071a0321) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png using Guid(db3e7b7c8db355e499429545071a0321) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d747be73b365c8f03073a76285c7277') in 0.007273458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab
+  artifactKey: Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab using Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b68fe4648b6b200acfe2959463f40822') in 0.003165708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png
+  artifactKey: Guid(b7bad1260586fa746a0b67e930892936) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png using Guid(b7bad1260586fa746a0b67e930892936) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f08a7298521e636997d5be1aacc351ba') in 0.010090042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+  artifactKey: Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab using Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a97e80f99f70a7c1b34f66ba22b6d6cd') in 0.00598675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Kinematic Torus.prefab
+  artifactKey: Guid(521327bdbcb341f782d36f02cab76cb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Kinematic Torus.prefab using Guid(521327bdbcb341f782d36f02cab76cb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4b1dc0255357801d6d5049eb182d01a') in 0.011045875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/ModalSingleButton.prefab
+  artifactKey: Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/ModalSingleButton.prefab using Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3cca4caa366683d7b63976d7404024b') in 0.011145959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab
+  artifactKey: Guid(893219773891c784ab469a39151879b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab using Guid(893219773891c784ab469a39151879b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a53273bbd5f966d59e52395341881de') in 0.003103625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climbing Wall.prefab
+  artifactKey: Guid(a0ea40bd139aedc43b0e8374d6139437) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climbing Wall.prefab using Guid(a0ea40bd139aedc43b0e8374d6139437) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd657ad109d382857c87b8fbadfd0afa') in 0.007729292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 345
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx
+  artifactKey: Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cfa668f6a3a320f55445b1dddea8650') in 0.0113715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Simple Cube.prefab
+  artifactKey: Guid(2e16046ebcbcb6742a86569d82e56cce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Simple Cube.prefab using Guid(2e16046ebcbcb6742a86569d82e56cce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '029073088abec8af2053728d12d4320a') in 0.010856792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Anchor.prefab
+  artifactKey: Guid(fad94b617f0540568dbf4c9c4011248c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Anchor.prefab using Guid(fad94b617f0540568dbf4c9c4011248c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f583ed9fb75a1e305204e748e96b7b65') in 0.011135541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/VRTemplateAssets/Materials/UI/Blue.mat
+  artifactKey: Guid(6252b551806ea8940a1613d21e68a460) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/UI/Blue.mat using Guid(6252b551806ea8940a1613d21e68a460) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f52a130540b3392e58faddfc6cd2651f') in 0.003854959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/VRTemplateAssets/Materials/Controller/Controller.mat
+  artifactKey: Guid(ed99ca2a07c091541937eaa1d1225edf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Controller/Controller.mat using Guid(ed99ca2a07c091541937eaa1d1225edf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07317b46ee3e376dfc0989e648d8029d') in 0.007046792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Outline.png
+  artifactKey: Guid(58bc8d49e10d1bc40813d8974b8b3a5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Outline.png using Guid(58bc8d49e10d1bc40813d8974b8b3a5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b79e61955ae7a657677b642261cffd72') in 0.008858834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04affba40267bf7245bc84886e03858c') in 0.005526959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/VRTemplateAssets/Prefabs/UI/Spatial Panel Scroll.prefab
+  artifactKey: Guid(085ce58b196caa446a8545c9dd388793) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Prefabs/UI/Spatial Panel Scroll.prefab using Guid(085ce58b196caa446a8545c9dd388793) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56be36c260dca33a2b66daf387edbefb') in 0.018876458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/torus_Height.png
+  artifactKey: Guid(c8e3e9c3524648a47b779e016a93f0f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/torus_Height.png using Guid(c8e3e9c3524648a47b779e016a93f0f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aef3c481c2ed03b6479b9612aee5047a') in 0.008582917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efa354fc3dd9b5daf53846067bbec6c5') in 0.004516167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/VRTemplateAssets/Sprites/Icons/Scroll Up.png
+  artifactKey: Guid(976e28fd05dde91429107e5f857f3c89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Sprites/Icons/Scroll Up.png using Guid(976e28fd05dde91429107e5f857f3c89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9baabf7e54d1bd5973095509c7b551f') in 0.008588709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/VRTemplateAssets/Models/Environment/Blaster.fbx
+  artifactKey: Guid(99cc2a1856d1d8f40954668ce0ee3a7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/Environment/Blaster.fbx using Guid(99cc2a1856d1d8f40954668ce0ee3a7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79bb0d755939ca7acf42ae8fb1e93ec2') in 0.018991792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/VRTemplateAssets/Models/Primitives/Tapered Cylinder.fbx
+  artifactKey: Guid(759e8ecdd66ef614b844d0f68de1f901) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/Primitives/Tapered Cylinder.fbx using Guid(759e8ecdd66ef614b844d0f68de1f901) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a776eab8a9c99cb10289703470ea8aa') in 0.008573458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/Interactables.physicMaterial
+  artifactKey: Guid(10bde48ef542d6a4fbee12145283824a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/Interactables.physicMaterial using Guid(10bde48ef542d6a4fbee12145283824a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50ee318cf7236075960685dbe3be515c') in 0.002191167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4db2aff0e2f67608e017d777499674f') in 0.010902209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/VRTemplateAssets/Models/Anchor/AnchorFade.fbx
+  artifactKey: Guid(436757056de26e144b330984c539cecd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Models/Anchor/AnchorFade.fbx using Guid(436757056de26e144b330984c539cecd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64520f0179fbb0c4dd25169658f86a33') in 0.008858083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/VRTemplateAssets/Scripts/XRPokeFollowAffordanceFill.cs
+  artifactKey: Guid(0908100b30fe0ab4191734ae3261431f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VRTemplateAssets/Scripts/XRPokeFollowAffordanceFill.cs using Guid(0908100b30fe0ab4191734ae3261431f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00e3b98425030aecfd53d16c2250f34f') in 0.00232425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a2fc7000 may have been prematurely finalized
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.873 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.44 ms, found 9 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.643 seconds
+Domain Reload Profiling: 1519ms
+	BeginReloadAssembly (327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (214ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (120ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.77 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6666 unused Assets / (6.5 MB). Loaded Objects now: 7304.
+Memory consumption went from 181.7 MB to 175.2 MB.
+Total: 6.991250 ms (FindLiveObjects: 0.354042 ms CreateObjectMapping: 0.215667 ms MarkObjects: 3.820541 ms  DeleteObjects: 2.599875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d1fb000 may have been prematurely finalized
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/oscar/Documents/GitHub/IGME690-Looking-Glass/Gospel/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.586 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.24 ms, found 9 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.619 seconds
+Domain Reload Profiling: 1207ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.64 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.96 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6662 unused Assets / (4.7 MB). Loaded Objects now: 7305.
+Memory consumption went from 174.9 MB to 170.2 MB.
+Total: 8.032709 ms (FindLiveObjects: 0.413541 ms CreateObjectMapping: 0.244625 ms MarkObjects: 5.070375 ms  DeleteObjects: 2.303583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
