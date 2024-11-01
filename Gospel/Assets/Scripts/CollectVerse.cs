@@ -16,12 +16,13 @@ public class CollectVerse : MonoBehaviour
     public VerseManager verseManager;
     public GameObject move;
     public GameObject verseViewer;
+    public GameObject pressToInteract;
     public InputActionProperty collectVerseButton;
     public string verse;
     public int verseIndex;
     public bool canView;
+    public bool isViewing;
     public bool hasCollected;
-    public bool isViewing = false;
     
     void Start()
     {
@@ -39,25 +40,36 @@ public class CollectVerse : MonoBehaviour
         {
             move = GameObject.Find("Move");
         }
+
+        if (pressToInteract == null)
+        {
+            pressToInteract = GameObject.Find("Press To Interact");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         if (canView && collectVerseButton.action.WasPressedThisFrame()) OpenVerseViewer();
+
+        if (canView && !isViewing) pressToInteract.SetActive(true);
+        else if (!canView || isViewing) pressToInteract.SetActive(false);
     }
 
     public void OpenVerseViewer()
     {
         if (!hasCollected) AddToCollection();
+        isViewing = true;
         verseViewer.SetActive(true);
         move.SetActive(false);
     }
 
     public void ExitVerseViewer()
     {
+        isViewing = false;
         verseViewer.SetActive(false);
         move.SetActive(true);
+        pressToInteract.SetActive(false);
     }
 
     public void AddToCollection()
