@@ -12,6 +12,7 @@ public class CollectVerse : MonoBehaviour
 {
     public SaveManager save;
     public VerseManager verseManager;
+    public GameObject move;
     public string verse;
     public int verseIndex;
     public bool hasCollected;
@@ -27,6 +28,11 @@ public class CollectVerse : MonoBehaviour
         if (verseManager == null)
         {
             verseManager = GameObject.Find("Verse Manager").GetComponent<VerseManager>();
+        }
+
+        if (move == null)
+        {
+            move = GameObject.Find("Move");
         }
     }
 
