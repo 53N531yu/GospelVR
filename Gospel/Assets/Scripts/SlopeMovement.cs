@@ -32,8 +32,7 @@ public class SlopeMovement : MonoBehaviour
         // PlayerMovement();
 
         if ((rb.velocity.x != 0 || rb.velocity.y != 0 || rb.velocity.z != 0) && OnSlope())
-            charController.Move(Vector3.right * charController.height / 2 * slopeForce * Time.deltaTime);
-        Debug.Log(OnSlope());
+            charController.Move(Vector3.down * charController.height / 2 * slopeForce * Time.deltaTime);
     }
 
     private void PlayerMovement()
