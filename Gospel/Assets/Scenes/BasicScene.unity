@@ -4867,6 +4867,18 @@ MonoBehaviour:
   verseManager: {fileID: 0}
   move: {fileID: 0}
   verseViewer: {fileID: 1873809160}
+  collectVerseButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Collect Verse Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 21bb96db-7824-4024-9a97-6b8266ed7c03
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 8132687085031596299, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   verse: 
   verseIndex: 0
   canView: 0
@@ -7488,6 +7500,18 @@ MonoBehaviour:
   verseManager: {fileID: 0}
   move: {fileID: 0}
   verseViewer: {fileID: 0}
+  collectVerseButton:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 274aced5-8d8b-41e9-a829-6087428af16b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   verse: 
   verseIndex: 0
   canView: 0
@@ -7575,7 +7599,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1859938259}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1203820781}
+        m_TargetAssemblyTypeName: CollectVerse, Assembly-CSharp
+        m_MethodName: ExitVerseViewer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1859938259
 MonoBehaviour:
   m_ObjectHideFlags: 0

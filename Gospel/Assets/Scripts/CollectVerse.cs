@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.Windows;
+using UnityEngine.InputSystem;
 using System;
 
 public class CollectVerse : MonoBehaviour
@@ -15,6 +16,7 @@ public class CollectVerse : MonoBehaviour
     public VerseManager verseManager;
     public GameObject move;
     public GameObject verseViewer;
+    public InputActionProperty collectVerseButton;
     public string verse;
     public int verseIndex;
     public bool canView;
@@ -42,8 +44,7 @@ public class CollectVerse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isViewing) OpenVerseViewer();
-        else if (!isViewing) ExitVerseViewer();
+        if (canView && collectVerseButton.action.WasPressedThisFrame()) OpenVerseViewer();
     }
 
     public void OpenVerseViewer()
@@ -51,12 +52,12 @@ public class CollectVerse : MonoBehaviour
         if (!hasCollected) AddToCollection();
         verseViewer.SetActive(true);
         move.SetActive(false);
-        Console.WriteLine("Hello???");
     }
 
     public void ExitVerseViewer()
     {
-        
+        verseViewer.SetActive(false);
+        move.SetActive(true);
     }
 
     public void AddToCollection()
@@ -68,12 +69,12 @@ public class CollectVerse : MonoBehaviour
     void OnTriggerStay(Collider col)
     {
         if (col.CompareTag("Player"))
-            isViewing = true;
+            canView = true;
     }
 
     void OnTriggerExit(Collider col)
     {
         if (col.CompareTag("Player"))
-            isViewing = false;
+            canView = false;
     }
 }
