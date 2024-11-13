@@ -8,13 +8,19 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.Windows;
 using UnityEngine.InputSystem;
+using System;
 
 public class Bench : MonoBehaviour
 {
+    public GameObject[] pages = new GameObject[20];
+    private GameObject currentPage;
+    public int i = 0;
     public GameObject journal;
     public GameObject journalNavigator;
     public GameObject journalButton;
     public GameObject pressToSit;
+    public GameObject forwardButton;
+    public GameObject BackwardButton;
     public SaveManager save;
     public VerseManager verse;
     public InputActionProperty collectVerseButton;
@@ -25,6 +31,8 @@ public class Bench : MonoBehaviour
     
     void Start()
     {
+        currentPage = pages[i];
+
         if (journal == null)
         {
             journal = GameObject.Find("Journal");
@@ -63,6 +71,9 @@ public class Bench : MonoBehaviour
 
         if (canSit && !isSitting) pressToSit.SetActive(true);
         else if (!canSit || isSitting || isReading) pressToSit.SetActive(false);
+
+        if (currentPage == pages[0]) BackwardButton.SetActive(false);
+        else BackwardButton.SetActive(true);
     }
 
     public void DisplayBenchUI()
@@ -110,6 +121,34 @@ public class Bench : MonoBehaviour
         move.SetActive(true);
     }
 
+    public void TurnPage(bool forward)
+    {
+        if (forward && i < pages.Length - 1) StartCoroutine(NextVerse());
+        if (!forward && i > 0) StartCoroutine(PreviousVerse());
+    }
+
+    public IEnumerator NextVerse()
+    {
+        currentPage.SetActive(false);
+
+        yield return new WaitForSeconds(0.1f);
+
+        i++;
+        currentPage = pages[i];
+        currentPage.SetActive(true);
+    }
+
+    public IEnumerator PreviousVerse()
+    {
+        currentPage.SetActive(false);
+
+        yield return new WaitForSeconds(0.1f);
+
+        i--;
+        currentPage = pages[i];
+        currentPage.SetActive(true);
+    }
+    
     void OnTriggerStay(Collider col)
     {
         if (col.CompareTag("Player"))
@@ -121,4 +160,5 @@ public class Bench : MonoBehaviour
         if (col.CompareTag("Player"))
             canSit = false;
     }
+
 }

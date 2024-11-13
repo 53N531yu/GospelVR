@@ -18,7 +18,7 @@ public class CollectVerse : MonoBehaviour
     public GameObject verseViewer;
     public GameObject pressToInteract;
     public InputActionProperty collectVerseButton;
-    public string verse;
+    // public string verse;
     public int verseIndex;
     public bool canView;
     public bool isViewing;
@@ -74,7 +74,7 @@ public class CollectVerse : MonoBehaviour
 
     public void AddToCollection()
     {
-        verseManager.verses[verseIndex] = verse;
+        verseManager.verses[verseIndex] = true;
         save.Save();
     }
 

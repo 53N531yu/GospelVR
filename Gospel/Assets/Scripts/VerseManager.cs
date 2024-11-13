@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VerseManager : MonoBehaviour
 {
-    public string[] verses;
+    public bool[] verses;
     
     // Start is called before the first frame update
     void Start()
