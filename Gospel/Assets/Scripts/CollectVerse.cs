@@ -74,7 +74,7 @@ public class CollectVerse : MonoBehaviour
 
     public void AddToCollection()
     {
-        // verseManager.verses[verseIndex] = verse;
+        verseManager.verses[verseIndex] = verse;
         save.Save();
     }
 
