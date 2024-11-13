@@ -25,6 +25,7 @@ public class Bench : MonoBehaviour
     public VerseManager verse;
     public InputActionProperty collectVerseButton;
     public GameObject move;
+    public GameObject teleport;
     public bool canSit;
     public bool isSitting;
     public bool isReading = false;
@@ -62,12 +63,17 @@ public class Bench : MonoBehaviour
         {
             move = GameObject.Find("Move");
         }
+        
+        if (teleport == null)
+        {
+            teleport = GameObject.Find("Teleportation");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (canSit && collectVerseButton.action.WasPressedThisFrame()) BenchSit();
+        if (canSit && collectVerseButton.action.WasPressedThisFrame() && !isSitting) BenchSit();
 
         if (canSit && !isSitting) pressToSit.SetActive(true);
         else if (!canSit || isSitting || isReading) pressToSit.SetActive(false);
@@ -108,6 +114,7 @@ public class Bench : MonoBehaviour
         isSitting = true;
         journalButton.SetActive(true);
         move.SetActive(false);
+        teleport.SetActive(false);
         save.Save();
     }
 
@@ -119,6 +126,7 @@ public class Bench : MonoBehaviour
         journalNavigator.SetActive(false);
         journalButton.SetActive(false);
         move.SetActive(true);
+        teleport.SetActive(true);
     }
 
     public void TurnPage(bool forward)

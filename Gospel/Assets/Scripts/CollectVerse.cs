@@ -15,6 +15,7 @@ public class CollectVerse : MonoBehaviour
     public SaveManager save;
     public VerseManager verseManager;
     public GameObject move;
+    public GameObject teleport;
     public GameObject verseViewer;
     public GameObject pressToInteract;
     public InputActionProperty collectVerseButton;
@@ -40,6 +41,11 @@ public class CollectVerse : MonoBehaviour
         {
             move = GameObject.Find("Move");
         }
+        
+        if (teleport == null)
+        {
+            teleport = GameObject.Find("Teleportation");
+        }
 
         if (pressToInteract == null)
         {
@@ -62,6 +68,7 @@ public class CollectVerse : MonoBehaviour
         isViewing = true;
         verseViewer.SetActive(true);
         move.SetActive(false);
+        teleport.SetActive(false);
     }
 
     public void ExitVerseViewer()
@@ -69,6 +76,7 @@ public class CollectVerse : MonoBehaviour
         isViewing = false;
         verseViewer.SetActive(false);
         move.SetActive(true);
+        teleport.SetActive(true);
         pressToInteract.SetActive(false);
     }
 
