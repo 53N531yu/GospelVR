@@ -19,7 +19,7 @@ public class Bench : MonoBehaviour
     public GameObject journalNavigator;
     public GameObject journalButton;
     public GameObject pressToSit;
-    public GameObject forwardButton;
+    public GameObject ForwardButton;
     public GameObject BackwardButton;
     public SaveManager save;
     public VerseManager verse;
@@ -29,6 +29,7 @@ public class Bench : MonoBehaviour
     public bool canSit;
     public bool isSitting;
     public bool isReading = false;
+    public bool pressed;
     
     void Start()
     {
@@ -80,6 +81,9 @@ public class Bench : MonoBehaviour
 
         if (currentPage == pages[0]) BackwardButton.SetActive(false);
         else BackwardButton.SetActive(true);
+
+        if (currentPage == pages[20]) ForwardButton.SetActive(false);
+        else ForwardButton.SetActive(true);
     }
 
     public void DisplayBenchUI()
@@ -133,6 +137,7 @@ public class Bench : MonoBehaviour
     {
         if (forward && i < pages.Length - 1) StartCoroutine(NextVerse());
         if (!forward && i > 0) StartCoroutine(PreviousVerse());
+        pressed = true;
     }
 
     public IEnumerator NextVerse()
@@ -144,6 +149,7 @@ public class Bench : MonoBehaviour
         i++;
         currentPage = pages[i];
         currentPage.SetActive(true);
+        pressed = false;
     }
 
     public IEnumerator PreviousVerse()
@@ -155,6 +161,7 @@ public class Bench : MonoBehaviour
         i--;
         currentPage = pages[i];
         currentPage.SetActive(true);
+        pressed = false;
     }
     
     void OnTriggerStay(Collider col)
