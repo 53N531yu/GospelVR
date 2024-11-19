@@ -1,0 +1,13 @@
+# Blender 4.2.1 LTS MTL File: 'None'
+# www.blender.org
+
+newmtl Material_0
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /Users/oscar/Downloads/c0e1e3b3b101_2c30506e05f5_lamb__3d_asset_0_gl_obj/2c30506e05f5_lamb__3d_asset_0_gl_texture_kd.jpg
+map_Ns /Users/oscar/Downloads/c0e1e3b3b101_2c30506e05f5_lamb__3d_asset_0_gl_obj/2c30506e05f5_lamb__3d_asset_0_gl_roughness.jpg
+map_refl /Users/oscar/Downloads/c0e1e3b3b101_2c30506e05f5_lamb__3d_asset_0_gl_obj/2c30506e05f5_lamb__3d_asset_0_gl_metallic.jpg
