@@ -340,6 +340,17 @@
                     "action": "View Verse",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0937d82a-7f69-4e83-a9e4-28daf9a42676",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "View Verse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
