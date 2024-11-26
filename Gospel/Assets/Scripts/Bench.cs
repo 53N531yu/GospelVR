@@ -102,6 +102,7 @@ public class Bench : MonoBehaviour
         pressToSit.SetActive(false);
         journal.SetActive(true);
         journalNavigator.SetActive(true);
+        pages[i].SetActive(true);
         journalButton.SetActive(false);
     }
 

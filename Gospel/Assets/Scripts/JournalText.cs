@@ -24,7 +24,7 @@ public class JournalText : MonoBehaviour
             verse = GameObject.Find("Verse Manager").GetComponent<VerseManager>();
         }
 
-        currentPage = miniPage[i];
+        if (miniPage.Length != 0) currentPage = miniPage[i];
 
         scroller.SetActive(true);
     }
