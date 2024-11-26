@@ -46,6 +46,17 @@ public class JournalText : MonoBehaviour
         {
             scroller.SetActive(false);
         }
+
+        if (isShort)
+        {
+            backButton.SetActive(false);
+            nextButton.SetActive(false);
+        }
+        else 
+        {
+            backButton.SetActive(true);
+            nextButton.SetActive(true);
+        }
     }
 
     public void Scroll(bool forward)

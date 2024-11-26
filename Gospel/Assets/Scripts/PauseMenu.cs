@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
+// using System.Diagnostics;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -72,8 +72,8 @@ public class PauseMenu : MonoBehaviour
         paused = true;
         canvas.SetActive(true);
         pausemenu.SetActive(true);
-        Time.timeScale = 0f;
-        eventSystem.SetSelectedGameObject(resumebutton);
+        // Time.timeScale = 0f;
+        // eventSystem.SetSelectedGameObject(resumebutton);
     }
 
     public void Play()
@@ -104,6 +104,6 @@ public class PauseMenu : MonoBehaviour
         // Deactivate other menus
 
         // Set selected button
-        eventSystem.SetSelectedGameObject(resumebutton);
+        // eventSystem.SetSelectedGameObject(resumebutton);
     }
 }

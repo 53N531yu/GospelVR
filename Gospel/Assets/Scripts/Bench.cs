@@ -135,7 +135,7 @@ public class Bench : MonoBehaviour
 
     public void TurnPage(bool forward)
     {
-        if (forward && i < pages.Length - 1) StartCoroutine(NextVerse());
+        if (forward && i < pages.Length) StartCoroutine(NextVerse());
         if (!forward && i > 0) StartCoroutine(PreviousVerse());
         pressed = true;
     }

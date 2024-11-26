@@ -85,6 +85,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "84844c3f-fefe-40a4-8767-bf9e8e080327",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -348,7 +357,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "View Verse",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
