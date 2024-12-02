@@ -21,6 +21,7 @@ public class CollectVerse : MonoBehaviour
     public InputActionProperty collectVerseButton;
     // public string verse;
     public int verseIndex;
+    public bool isMajorVerse;
     public bool canView;
     public bool isViewing;
     public bool hasCollected;
@@ -65,6 +66,7 @@ public class CollectVerse : MonoBehaviour
     public void OpenVerseViewer()
     {
         if (!hasCollected) AddToCollection();
+        hasCollected = true;
         isViewing = true;
         verseViewer.SetActive(true);
         move.SetActive(false);
@@ -83,6 +85,7 @@ public class CollectVerse : MonoBehaviour
     public void AddToCollection()
     {
         verseManager.verses[verseIndex] = true;
+        verseManager.MajorVersesCollected ++;
         save.Save();
     }
 
