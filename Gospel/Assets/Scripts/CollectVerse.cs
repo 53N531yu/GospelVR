@@ -85,7 +85,7 @@ public class CollectVerse : MonoBehaviour
     public void AddToCollection()
     {
         verseManager.verses[verseIndex] = true;
-        verseManager.MajorVersesCollected ++;
+        if (isMajorVerse) verseManager.MajorVersesCollected ++;
         save.Save();
     }
 
