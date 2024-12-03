@@ -20,6 +20,8 @@ public class CollectVerse : MonoBehaviour
     public GameObject pressToInteract;
     public InputActionProperty collectVerseButton;
     public GameObject mountain;
+    public GameObject player;
+    public Transform teleportLocation;
     public int verseIndex;
     public bool isMajorVerse;
     public bool isTeleportCross;
@@ -59,6 +61,11 @@ public class CollectVerse : MonoBehaviour
         if (mountain == null)
         {
             mountain = GameObject.Find("The Mountain");
+        }
+
+        if (player == null)
+        {
+            player = GameObject.Find("Player");
         }
     }
 
@@ -106,7 +113,7 @@ public class CollectVerse : MonoBehaviour
 
     public void Teleport()
     {
-        
+        if (teleportLocation != null) player.transform.position = teleportLocation.position;
     }
 
     public void MoveMountain()
@@ -114,7 +121,6 @@ public class CollectVerse : MonoBehaviour
         if (mountain.transform.position.y < 25 && mountain.transform.position.x < 250) mountain.transform.Translate(Vector3.up * Time.deltaTime, Space.World);
         if (mountain.transform.position.y >= 25 && mountain.transform.position.x < 250) mountain.transform.Translate(Vector3.right * Time.deltaTime, Space.World);
         if (mountain.transform.position.y > -100 && mountain.transform.position.x >= 250) mountain.transform.Translate(Vector3.down * Time.deltaTime, Space.World);
-        Debug.Log("Hello???");
     }
 
     void OnTriggerStay(Collider col)
