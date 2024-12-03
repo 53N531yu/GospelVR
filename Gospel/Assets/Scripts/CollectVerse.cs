@@ -19,9 +19,9 @@ public class CollectVerse : MonoBehaviour
     public GameObject verseViewer;
     public GameObject pressToInteract;
     public InputActionProperty collectVerseButton;
-    // public string verse;
     public int verseIndex;
     public bool isMajorVerse;
+    public bool isTeleportCross;
     public bool canView;
     public bool isViewing;
     public bool hasCollected;
@@ -87,6 +87,11 @@ public class CollectVerse : MonoBehaviour
         verseManager.verses[verseIndex] = true;
         if (isMajorVerse) verseManager.MajorVersesCollected ++;
         save.Save();
+    }
+
+    public void Teleport()
+    {
+        
     }
 
     void OnTriggerStay(Collider col)
