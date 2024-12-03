@@ -57,7 +57,11 @@ public class CollectVerse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canView && collectVerseButton.action.WasPressedThisFrame()) OpenVerseViewer();
+        if (canView && collectVerseButton.action.WasPressedThisFrame()) 
+        {
+            if (!isTeleportCross) OpenVerseViewer();
+            else if (isTeleportCross) Teleport();
+        }
 
         if (canView && !isViewing) pressToInteract.SetActive(true);
         else if (!canView || isViewing) pressToInteract.SetActive(false);
