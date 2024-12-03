@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
+// using System.Diagnostics;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,12 +19,15 @@ public class CollectVerse : MonoBehaviour
     public GameObject verseViewer;
     public GameObject pressToInteract;
     public InputActionProperty collectVerseButton;
+    public GameObject mountain;
     public int verseIndex;
     public bool isMajorVerse;
     public bool isTeleportCross;
+    public bool isMountainMover;
     public bool canView;
     public bool isViewing;
     public bool hasCollected;
+    private bool moveMountain = false;
     
     void Start()
     {
@@ -52,6 +55,11 @@ public class CollectVerse : MonoBehaviour
         {
             pressToInteract = GameObject.Find("Press To Interact");
         }
+
+        if (mountain == null)
+        {
+            mountain = GameObject.Find("The Mountain");
+        }
     }
 
     // Update is called once per frame
@@ -65,6 +73,8 @@ public class CollectVerse : MonoBehaviour
 
         if (canView && !isViewing) pressToInteract.SetActive(true);
         else if (!canView || isViewing) pressToInteract.SetActive(false);
+
+        if (moveMountain) MoveMountain();
     }
 
     public void OpenVerseViewer()
@@ -84,6 +94,7 @@ public class CollectVerse : MonoBehaviour
         move.SetActive(true);
         teleport.SetActive(true);
         pressToInteract.SetActive(false);
+        moveMountain = true;
     }
 
     public void AddToCollection()
@@ -96,6 +107,14 @@ public class CollectVerse : MonoBehaviour
     public void Teleport()
     {
         
+    }
+
+    public void MoveMountain()
+    {
+        if (mountain.transform.position.y < 25 && mountain.transform.position.x < 250) mountain.transform.Translate(Vector3.up * Time.deltaTime, Space.World);
+        if (mountain.transform.position.y >= 25 && mountain.transform.position.x < 250) mountain.transform.Translate(Vector3.right * Time.deltaTime, Space.World);
+        if (mountain.transform.position.y > -100 && mountain.transform.position.x >= 250) mountain.transform.Translate(Vector3.down * Time.deltaTime, Space.World);
+        Debug.Log("Hello???");
     }
 
     void OnTriggerStay(Collider col)
